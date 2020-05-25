@@ -2,15 +2,16 @@
 
 <p> Basic review app using Node, Express, React, React-Bootstrap, MongoDB using Docker </p>
 
-Very simple app with 2 features
+Simple app with 2 features
   1. Add review
   2. List all reviews
   
- 
-# pre requist
--- Mangodb docker image
+# Technology stack
+  1) Backend: Node JS, Express JS
+  2) Front End: React, React Bootstrap
+  3) DB: MongoDB using docker image
 
-# Steps:
+# Docker Steps:
 1) Pull mongo image
 ```
  docker pull mongo
@@ -29,7 +30,7 @@ Very simple app with 2 features
  In case you don't want to use docker update the IP [here](https://github.com/tushargoel86/basic_review_app/blob/master/backend/src/.env)
  
  
- API:
+API endpoint created using Node and Express JS:
 ``` 
 HTTP GET: http://localhost:3005/api/reviews
 ```
@@ -37,7 +38,7 @@ HTTP GET: http://localhost:3005/api/reviews
 ```
 HTTP POST: http://localhost:3005/api/reviews
 
-payload:
+body:
 {
     "comments": "Hello, this is good",
     "name": "Tushar Goel"
@@ -46,5 +47,5 @@ payload:
  
 ![](https://github.com/tushargoel86/basic_review_app/blob/master/images/basic.PNG)
 ![](https://github.com/tushargoel86/basic_review_app/blob/master/images/comment1.PNG)
-![](https://github.com/tushargoel86/basic_review_app/blob/master/images/comment2.PNG)
+
     
