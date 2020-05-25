@@ -26,7 +26,7 @@ Very simple app with 2 features
   Run http://<docker-ip>:27010  on browser, you must seen some message.
  ```
  
- In case you don't want to use docker update the IP [here](https://github.com/tushargoel86/basic_review_app/blob/master/backend/src/.env) and [here]()
+ In case you don't want to use docker update the IP [here](https://github.com/tushargoel86/basic_review_app/blob/master/backend/src/.env)
  
  
  API:
