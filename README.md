@@ -40,7 +40,7 @@ HTTP POST: http://localhost:3005/api/reviews
 
 body:
 {
-    "comments": "Hello, this is good",
+    "comments": "This is nice place to stay for few days.",
     "name": "Tushar Goel"
 }
 ```  
