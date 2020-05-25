@@ -29,12 +29,39 @@ Simple app with 2 features
  
  In case you don't want to use docker update the mongodb server IP [here](https://github.com/tushargoel86/basic_review_app/blob/master/backend/src/.env)
  
+ # How to use:
+ 
+ To start node server for backend. It will be started at 3005 port.
+ 
+ ```
+  cd backened/src/
+  npx nodemon app.js
+  or
+  node app.js
+ ```
+ 
+ To start ui. It will be started at 3000 port
+ 
+ ```
+ cd app-ui
+ yarn start
+``` 
  
  
 # API endpoint created using Node and Express JS:
+
+Index page
+
+``` 
+HTTP GET: http://localhost:3005
+```
+To list all the reviews
+
 ``` 
 HTTP GET: http://localhost:3005/api/reviews
 ```
+
+To add a review
 
 ```
 HTTP POST: http://localhost:3005/api/reviews
