@@ -27,10 +27,11 @@ Simple app with 2 features
   Run http://<docker-ip>:27010  on browser, you must seen some message.
  ```
  
- In case you don't want to use docker update the IP [here](https://github.com/tushargoel86/basic_review_app/blob/master/backend/src/.env)
+ In case you don't want to use docker update the mongodb server IP [here](https://github.com/tushargoel86/basic_review_app/blob/master/backend/src/.env)
  
  
-API endpoint created using Node and Express JS:
+ 
+# API endpoint created using Node and Express JS:
 ``` 
 HTTP GET: http://localhost:3005/api/reviews
 ```
